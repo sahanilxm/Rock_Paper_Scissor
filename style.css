@@ -1,0 +1,41 @@
+html , body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper{
+    background-color: #1c1c1ce5;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.buttons{
+    justify-content: center;
+    gap: 20px;
+    display: flex;
+}
+
+button{
+    border: 3px solid black;
+    width: 150px;
+    height: 150px;
+    font-size: 48px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: blue;
+    border: 4px solid yellow;
+}
+
+.resultContainer{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 20px;
+}
